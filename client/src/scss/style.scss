@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import "global-variables";
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+}
+html, body {
+  font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  height: 100%;
+  min-height: 100%;
+  * {
+    box-sizing: border-box;
+  }
+  .layout {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    background: $color-light-gray;
+    overflow: hidden;
+
+    .page-title {
+      color: $color-primary-blue;
+      font-size: 26px;
+      font-weight: 500;
+      display: inline-block;
+    }
+  }
+  .content-outer {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    &.blue {
+      background-color: $color-primary-blue;
+    }
+    .content-inner {
+      max-width: 1080px;
+      margin: auto;
+      padding: 0 15px;
+      height: 100%;
+    }
+  }
+}
+.full-height {
+  // 60px for the header
+  height: calc(100% - 60px);
+  min-height: calc(100% - 60px);
+  max-height: calc(100% - 60px);
+}
+button, .uk-button {
+  background: $color-primary-blue;
+  color: $color-white;
+  &:disabled {
+    opacity: .5;
+  }
+}

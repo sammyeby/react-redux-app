@@ -1,0 +1,50 @@
+@import "../global-variables";
+.profile {
+  height: 100%;
+  &__title {
+    margin: 30px 0;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    &__title {
+      margin-top: 20px;
+      color: $color-primary-blue;
+      font-size: 20px;
+      font-weight: 500;
+      border-bottom: 1px solid $color-primary-orange;
+    }
+    &__data {
+      display: table;
+      max-width: 600px;
+      width: 100%;
+      margin-top: 10px;
+      .info-wrapper {
+        display: table-row;
+        &__label {
+          display: table-cell;
+          vertical-align: middle;
+          height: 35px;
+          padding: 10px 20px 10px 0;
+          font-size: 12px;
+          font-weight: 300;
+        }
+        &__value {
+          font-weight: 500;
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+    &__btn {
+      margin-top: 10px;
+      text-align: right;
+      .uk-button-primary {
+        margin-top: 12px;
+        &:hover {
+          background: rgba($color-primary-blue, .8);
+        }
+      }
+    }
+  }
+}

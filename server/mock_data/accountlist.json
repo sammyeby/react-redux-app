@@ -1,0 +1,75 @@
+{
+  "data": {
+    "5a9b39ff9a6b5aeb3003c4cc": [
+      {
+        "accountId": "5a9b3ec75ec807782e7263ba",
+        "accountType": "Fixed Deposit",
+        "prevBal": "$2,949.80",
+        "currentBal": "$1,797.53",
+        "lastActivity": "16/02/2018"
+      },
+      {
+        "accountId": "5a9b3ec7dc30b60c6d6bb27f",
+        "accountType": "Savings",
+        "prevBal": "$3,522.10",
+        "currentBal": "$1,023.12",
+        "lastActivity": "28/02/2018"
+      },
+      {
+        "accountId": "5a9b3ec73f07efc6eab2f3c2",
+        "accountType": "Current",
+        "prevBal": "$3,101.06",
+        "currentBal": "$2,710.65",
+        "lastActivity": "30/01/2018"
+      }
+    ],
+    "5a9b39ff6fd95162916bcd74": [
+      {
+        "accountId": "5a9b3ec7156d4c1db8cd3b73",
+        "accountType": "Fixed Deposit",
+        "prevBal": "$4,699.65",
+        "currentBal": "$2,885.01",
+        "lastActivity": "10/02/2018"
+      },
+      {
+        "accountId": "5a9b3ec7d4a64bfcc90503c2",
+        "accountType": "Savings",
+        "prevBal": "$3,737.70",
+        "currentBal": "$1,813.17",
+        "lastActivity": "26/02/2018"
+      }
+    ],
+    "5a9b39ff0b13c33b0204e995": [
+      {
+        "accountId": "5a9b3ec74d7e276765961fb8",
+        "accountType": "Fixed Deposit",
+        "prevBal": "$2,590.27",
+        "currentBal": "$2,211.21",
+        "lastActivity": "29/01/2018"
+      },
+      {
+        "accountId": "5a9b3ec7a49247decb7cc72e",
+        "accountType": "Current",
+        "prevBal": "$3,325.00",
+        "currentBal": "$2,944.12",
+        "lastActivity": "31/01/2018"
+      },
+      {
+        "accountId": "5a9b3ec7d4a64bfcc90503c2",
+        "accountType": "Savings",
+        "prevBal": "$3,737.70",
+        "currentBal": "$1,813.17",
+        "lastActivity": "26/02/2018"
+      }
+    ],
+    "5a9b39ff79e7df4561481d7e": [
+      {
+        "accountId": "5a9b3ec7975e8200393d9e4c",
+        "accountType": "Current",
+        "prevBal": "$3,000.59",
+        "currentBal": "$2,713.37",
+        "lastActivity": "12/01/2018"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "customerId": "5a9b39ff9a6b5aeb3003c4cc",
+      "firstname": "Klein",
+      "lastname": "Mendez",
+      "gender": "Male",
+      "age": 40,
+      "title": "Mr.",
+      "company": "REALYSIS",
+      "email": "klein.mendez@realysis.ca",
+      "phone": "+49 (991) 488-3991",
+      "address": "113 Banker Street, Bowden, Pennsylvania, 2058"
+    },
+    {
+      "customerId": "5a9b39ff6fd95162916bcd74",
+      "firstname": "Preston",
+      "lastname": "Huff",
+      "gender": "Male",
+      "age": 30,
+      "title": "Mr.",
+      "company": "INCUBUS",
+      "email": "preston.huff@incubus.us",
+      "phone": "+49 (903) 449-3859",
+      "address": "955 Vernon Avenue, Riviera, Alabama, 430"
+    },
+    {
+      "customerId": "5a9b39ff0b13c33b0204e995",
+      "firstname": "Dillon",
+      "lastname": "Bates",
+      "gender": "Female",
+      "age": 28,
+      "title": "Miss",
+      "company": "EARTHPLEX",
+      "email": "dillon.bates@earthplex.net",
+      "phone": "+49 (863) 548-2203",
+      "address": "697 Boerum Street, Alden, Arkansas, 6098"
+    },
+    {
+      "customerId": "5a9b39ff79e7df4561481d7e",
+      "firstname": "Kristen",
+      "lastname": "Dotson",
+      "gender": "Female",
+      "age": 39,
+      "title": "Miss",
+      "company": "QUARX",
+      "email": "kristen.dotson@quarx.me",
+      "phone": "+49 (989) 434-3052",
+      "address": "696 Degraw Street, Blende, Nevada, 2331"
+    }
+  ]
+}

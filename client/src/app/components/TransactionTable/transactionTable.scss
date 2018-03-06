@@ -1,0 +1,32 @@
+@import '../../../scss/global-variables';
+
+.transaction-table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    tr {
+      &:nth-child(even) {
+        background: $color-white;
+      }
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      th {
+        background-color: $color-primary-blue;
+        color: $color-white;
+        font-weight: 600;
+      }
+      td {
+        vertical-align: center;
+        border-bottom: 1px solid $color-primary-orange;
+        .green {
+          color: $color-green;
+        }
+        .red {
+          color: $color-red;
+        }
+      }
+    }
+  }
+}

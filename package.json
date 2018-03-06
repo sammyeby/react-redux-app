@@ -1,0 +1,20 @@
+{
+  "name": "kreditech_test",
+  "version": "1.0.0",
+  "description": "This is the server side of the Acme Bank app",
+  "main": "server/server.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon src/server/server.js",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "author": "Samuel Umeh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2",
+    "jsonfile": "4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "3.5.1"
+  }
+}

@@ -1,0 +1,25 @@
+@import "../global-variables";
+.transactions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  &__title {
+    margin: 30px 0;
+    width: 100%;
+  }
+  &__body {
+    width: 100%;
+    &__tabs {
+      margin-bottom: 40px;
+      .uk-tab {
+        .uk-active {
+          > a {
+            border-color: $color-primary-orange;
+            color: $color-primary-blue
+          }
+        }
+      }
+    }
+  }
+}
