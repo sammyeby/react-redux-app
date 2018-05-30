@@ -1,13 +1,26 @@
 {
-  "name": "kreditech_test",
+  "name": "react-redux-testapp",
   "version": "1.0.0",
   "description": "A customer portal for Acme Bank (Client Side)",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server --content-base src --hot"
   },
-  "author": "Samuel Umeh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sammyeby/react-redux-testapp.git"
+  },
+  "author": "Samuel Umeh <u.samuel@outlook.com>",
   "license": "ISC",
+  "keywords": [
+    "react",
+    "redux",
+    "es6",
+    "reactdom",
+    "expressJs",
+    "javascript"
+  ],
+  "homepage": "https://github.com/sammyeby/react-redux-testapp#readme",
   "dependencies": {
     "axios": "0.18.0",
     "prop-types": "15.6.1",
@@ -40,7 +53,7 @@
     "webpack-dev-server": "2.9.7"
   },
   "proxy": {
-    "/api": {
+    "/api/v1/**": {
       "target": "http://localhost:3000"
     }
   }

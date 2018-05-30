@@ -50,4 +50,4 @@ app.use('/api/v1/transactions/:customerId', (req, res, next) => {
     }
 });
 
-app.listen(3000, () => console.log('Kreditech_test server listening on port 3000!'));
+app.listen(3000, () => console.log('Server listening on port 3000!'));
